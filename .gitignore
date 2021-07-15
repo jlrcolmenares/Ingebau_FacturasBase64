@@ -1,3 +1,4 @@
 *.pdf
+*.p12
 de_PDF_a_Base64/
 de_Base64_a_PDF/

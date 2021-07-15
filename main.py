@@ -59,10 +59,10 @@ def b64_to_PDF( input_folder, output_folder):
 
 if __name__ == "__main__":
 
-    #initial_folder = "./Facturas/"
-    #output_folder = "./de_PDF_a_Base64/"
-    #PDF_to_b64( initial_folder, output_folder)
+    initial_folder = "./tests/"
+    output_folder = "./Facturas_PDF/"
+    PDF_to_b64( initial_folder, output_folder)
     
-    input_folder = "./de_PDF_a_Base64/"
-    output_folder = "./de_Base64_a_PDF/"
-    b64_to_PDF( input_folder, output_folder)
+    #input_folder = "./de_PDF_a_Base64/"
+    #output_folder = "./de_Base64_a_PDF/"
+    #b64_to_PDF( input_folder, output_folder)
