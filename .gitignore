@@ -3,6 +3,10 @@
 *.crt
 *.cer
 *.pem
+*.pyc
 
-de_PDF_a_Base64/
-de_Base64_a_PDF/
+__pycache__/
+1_Facturas_PDF/
+2_de_PDF_a_Firmados/
+3_de_Firmados_a_Base64/
+4_de_Base64_a_PDF/

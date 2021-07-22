@@ -30,9 +30,9 @@ signature_meta = signers.PdfSignatureMetadata(
     use_pades_lta=True
 )
 
-with open('pdf.pdf', 'rb') as inf:
+with open('1_Facturas_PDF\VK-07-21-001225.pdf', 'rb') as inf:
     w = IncrementalPdfFileWriter(inf)
-    with open('pdf_pyhankoAPI.pdf', 'wb') as outf:
+    with open('tests/pdf_pyhankoAPI.pdf', 'wb') as outf:
         signers.sign_pdf(
             w, signature_meta=signature_meta, signer=signer,
             timestamper=timestamper, output=outf
